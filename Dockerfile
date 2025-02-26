@@ -1,3 +1,3 @@
-FROM busybox:1.36
+FROM busybox:1.35
 WORKDIR /app
-RUN echo "hello" > helloworld.txt
+RUN echo "hello dev" > helloworld.txt
